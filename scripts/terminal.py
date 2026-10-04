@@ -19,17 +19,17 @@ TYPE_DT = 0.075
 DONUT_FS, DONUT_LH, DONUT_COLS, DONUT_ROWS, DONUT_FRAMES, DONUT_PERIOD = 12.5, 13.6, 42, 19, 48, 4.0
 
 INFO = [
-    [("tukka25", "cyan"), ("@", "dim"), ("github", "magenta")],
-    [("─" * 22, "dim")],
-    [("Name    ", "magenta"), ("Abdalrahman Tukka", "text")],
-    [("Role    ", "magenta"), ("Software Developer", "text")],
-    [("School  ", "magenta"), ("42 Network · ALX SE", "text")],
-    [("Stack   ", "magenta"), ("C · C++ · Python · TS · Kotlin · Swift", "text")],
-    [("Focus   ", "magenta"), ("systems · AI agents · MCP tools", "text")],
-    [("Shell   ", "magenta"), ("minishell ", "text"), ("(hand-rolled, in C)", "dim")],
-    [("Uptime  ", "magenta"), ("shipping code since 2018", "text")],
+    [("tukka25", "orange"), ("@", "muted"), ("github", "blue")],
+    [("─" * 22, "line")],
+    [("Name    ", "orange"), ("Abdalrahman Tukka", "cloud")],
+    [("Role    ", "orange"), ("Software Developer", "cloud")],
+    [("School  ", "orange"), ("42 Network · ALX SE", "cloud")],
+    [("Stack   ", "orange"), ("C · C++ · Python · TS · Kotlin · Swift", "cloud")],
+    [("Focus   ", "orange"), ("systems · AI agents · MCP tools", "cloud")],
+    [("Shell   ", "orange"), ("minishell ", "cloud"), ("(hand-rolled, in C)", "muted")],
+    [("Uptime  ", "orange"), ("shipping code since 2018", "cloud")],
 ]
-PALETTE = ["#05010f", C["pink"], C["green"], C["yellow"], C["violet"], C["magenta"], C["cyan"], C["text"]]
+PALETTE = [C["dark"], C["clay"], C["orange"], C["kraft"], C["manilla"], C["green"], C["blue"], C["light"]]
 
 PROJECTS = [
     ["cub3d/", "42_minishell/", "ft_webserve/", "ft_traceroute/"],
@@ -95,13 +95,13 @@ class Session:
 
     def prompt(self, cmd):
         y = self.y
-        self.items.append((self.t, f'<text class="t" x="{LEFT}" y="{y}">{spans([("❯", "magenta"), (" ~ ", "cyan")])}</text>'))
+        self.items.append((self.t, f'<text class="t" x="{LEFT}" y="{y}">{spans([("❯", "orange"), (" ~ ", "blue")])}</text>'))
         x0 = LEFT + 4 * CW
         self.cursor.append((self.t, x0, y))
         start = self.t + 0.4
         steps = [(start + k * TYPE_DT, k) for k in range(1, len(cmd) + 1)]
         self.cursor += [(t, x0 + n * CW, y) for t, n in steps]
-        self.typed(cmd, x0, y, steps, "text")
+        self.typed(cmd, x0, y, steps, "light")
         self.t = steps[-1][0] + 0.35
         self.y += LH
         self.cursor.append((self.t, LEFT, self.y))
@@ -158,17 +158,17 @@ def build():
     s.prompt("make it_happen")
     y = s.y
     label = "building "
-    s.line(f'<text class="t" x="{LEFT}" y="{y}">{spans([("▸ ", "magenta"), (label, "dim"), ("[", "dim")])}</text>', dt=0.25, advance=0)
+    s.line(f'<text class="t" x="{LEFT}" y="{y}">{spans([("▸ ", "orange"), (label, "muted"), ("[", "muted")])}</text>', dt=0.25, advance=0)
     x0 = LEFT + (2 + len(label) + 1) * CW
     steps = [(s.t + k * 0.045, k) for k in range(1, BAR_LEN + 1)]
-    s.typed("█" * BAR_LEN, x0, y, steps, "magenta")
+    s.typed("█" * BAR_LEN, x0, y, steps, "orange")
     s.cursor += [(t, x0 + n * CW, y) for t, n in steps]
     s.t = steps[-1][0] + 0.15
-    s.line(f'<text class="t" x="{x0 + BAR_LEN * CW:.1f}" y="{y}">{spans([("] ", "dim"), ("100%", "green"), ("  ● shipped", "green")])}</text>', dt=0.9)
+    s.line(f'<text class="t" x="{x0 + BAR_LEN * CW:.1f}" y="{y}">{spans([("] ", "muted"), ("100%", "green"), ("  ● shipped", "green")])}</text>', dt=0.9)
     s.y += 8
 
     idle_y = s.y
-    s.items.append((s.t, f'<text class="t" x="{LEFT}" y="{idle_y}">{spans([("❯", "magenta"), (" ~ ", "cyan")])}</text>'))
+    s.items.append((s.t, f'<text class="t" x="{LEFT}" y="{idle_y}">{spans([("❯", "orange"), (" ~ ", "blue")])}</text>'))
     s.cursor.append((s.t, LEFT + 4 * CW, idle_y))
     hold, fade = 5.0, 0.6
     total = s.t + hold + fade
@@ -198,7 +198,7 @@ def build():
     cx = ";".join(f"{x + 1:.1f}" for _, x, _ in cur)
     cy = ";".join(f"{y - 15}" for _, _, y in cur)
     cursor = (
-        f'<rect class="cur" width="{CW - 1:.1f}" height="19" fill="{C["cyan"]}" opacity=".9">'
+        f'<rect class="cur" width="{CW - 1:.1f}" height="19" fill="{C["cloud"]}" opacity=".8">'
         f'<animate attributeName="x" dur="{total:.2f}s" repeatCount="indefinite" calcMode="discrete" keyTimes="{kt}" values="{cx}"/>'
         f'<animate attributeName="y" dur="{total:.2f}s" repeatCount="indefinite" calcMode="discrete" keyTimes="{kt}" values="{cy}"/></rect>'
     )
@@ -209,9 +209,9 @@ def build():
     style = f"""
 {font_face(MONO, 500, text_used)}
 text{{font-family:'TermMono','JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;font-weight:500}}
-.t{{font-size:{FS}px;fill:{C["text"]}}}
-.dir{{fill:{C["cyan"]}}}
-.title{{font-size:13px;fill:{C["dim"]};letter-spacing:1px}}
+.t{{font-size:{FS}px;fill:{C["cloud"]}}}
+.dir{{fill:{C["blue"]}}}
+.title{{font-size:13px;fill:{C["muted"]};letter-spacing:1px}}
 .donut text{{font-size:{DONUT_FS}px}}
 .df{{visibility:hidden;animation:df {DONUT_PERIOD}s steps(1,end) infinite}}
 @keyframes df{{0%{{visibility:visible}}{donut_step:.3f}%,100%{{visibility:hidden}}}}
@@ -229,43 +229,43 @@ text{{font-family:'TermMono','JetBrains Mono',ui-monospace,Menlo,Consolas,monosp
 <defs>
   <clipPath id="win"><rect width="{W}" height="{H}" rx="{RX}"/></clipPath>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0e0326"/>
-    <stop offset="1" stop-color="#07010f"/>
+    <stop offset="0" stop-color="{C["surface"]}"/>
+    <stop offset="1" stop-color="{C["dark"]}"/>
   </linearGradient>
   <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="{C["cyan"]}"/>
-    <stop offset=".5" stop-color="{C["violet"]}"/>
-    <stop offset="1" stop-color="{C["magenta"]}"/>
+    <stop offset="0" stop-color="{C["orange"]}"/>
+    <stop offset=".5" stop-color="{C["kraft"]}"/>
+    <stop offset="1" stop-color="{C["blue"]}"/>
   </linearGradient>
   <linearGradient id="donutG" gradientUnits="userSpaceOnUse" x1="{LEFT}" y1="{BAR + 40}" x2="{LEFT + 320}" y2="{BAR + 300}">
-    <stop offset="0" stop-color="{C["cyan"]}"/>
-    <stop offset=".55" stop-color="{C["violet"]}"/>
-    <stop offset="1" stop-color="{C["magenta"]}"/>
+    <stop offset="0" stop-color="{C["manilla"]}"/>
+    <stop offset=".5" stop-color="{C["orange"]}"/>
+    <stop offset="1" stop-color="{C["clay"]}"/>
   </linearGradient>
   <radialGradient id="vignette" cx=".5" cy=".5" r=".75">
     <stop offset=".6" stop-color="#000" stop-opacity="0"/>
     <stop offset="1" stop-color="#000" stop-opacity=".45"/>
   </radialGradient>
   <filter id="bloom" x="-5%" y="-5%" width="110%" height="110%">
-    <feGaussianBlur stdDeviation="1.6" result="b"/>
+    <feGaussianBlur stdDeviation="1.1" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
   {"".join(path_defs)}
 </defs>
 <g clip-path="url(#win)">
   <rect width="{W}" height="{H}" fill="url(#bg)"/>
-  <rect width="{W}" height="{BAR}" fill="#1b0a3d"/>
-  <line x1="0" y1="{BAR}" x2="{W}" y2="{BAR}" stroke="{C["violet"]}" stroke-opacity=".6"/>
-  <circle cx="22" cy="{BAR / 2}" r="6.5" fill="#ff5f57"/>
-  <circle cx="44" cy="{BAR / 2}" r="6.5" fill="#febc2e"/>
-  <circle cx="66" cy="{BAR / 2}" r="6.5" fill="#28c840"/>
+  <rect width="{W}" height="{BAR}" fill="{C["raised"]}"/>
+  <line x1="0" y1="{BAR}" x2="{W}" y2="{BAR}" stroke="{C["line"]}"/>
+  <circle cx="22" cy="{BAR / 2}" r="6.5" fill="{C["orange"]}"/>
+  <circle cx="44" cy="{BAR / 2}" r="6.5" fill="{C["kraft"]}"/>
+  <circle cx="66" cy="{BAR / 2}" r="6.5" fill="{C["green"]}"/>
   <text class="title" x="{W / 2}" y="{BAR / 2 + 4.5}" text-anchor="middle">{title}</text>
   <g class="screen" filter="url(#bloom)">
     {"".join(body)}
     {cursor}
   </g>
   <rect width="{W}" height="{H}" fill="url(#vignette)"/>
-  {scanlines(W, H, RX, 0.12)}
+  {scanlines(W, H, RX, 0.05)}
 </g>
 <rect x=".75" y=".75" width="{W - 1.5}" height="{H - 1.5}" rx="{RX}" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
 </svg>

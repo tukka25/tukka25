@@ -1,41 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 64" width="900" height="64" role="img" aria-label="The Snake Is Hungry">
 <title>The Snake Is Hungry</title>
 <style>
-@font-face{font-family:'HeroDisplay';font-weight:900;src:url(data:font/woff2;base64,d09GMgABAAAAAAREAA8AAAAACRQAAAPpAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGiobgRQcKgZgP1NUQVQqAGwRCAqGDIUTATYCJAM4Cx4ABCAFhCwHIBt2ByAuCmxj2uBFeDLsUjnEgH9OyMYyAgVUPDyv99+vfYKZl5zcOwI/3cHsjFKu3Aod0RGVlI21vTlEGjuSqUcbLr1REilCFN1mf/HBIggtoUgL/Qyz7t1vF6FRGa/v1hFLG5WQiUllH5Ms3oimVS0SKYD/4e9nugpt38PRwEYTn1gFSIdVUKRNv+CAsrEDuAFvdHZnamcVEUEs1nO9NYS3XxXIgBCyECAGeCxDYwEvarc99juAdsaxF5xFU8JnJOb0E887i8BBV0ryKLubhEFtETuvuKI2Ui0UKrURWcj9c/7vX0mt0ZiAEv1d2T8lo/qjjDCCQGMRc1pYwzwAlOnh4ioV6YZ0CMK+ezFxFG+OUDkD72eTS/qaY9Jfdox36RcEpN3SO5iDEsJogQlIzEBdfPIpFwQkAVEXV4GEAhPQAhMwDkEYR4+WzJFRUFHTNDD5e2BkCdH9hv7nL31+f29nc02wvx+i/xsiDMAMhCGRiO0QoAQkMZELsTFjd16Wy2FTDcZso57ctNXlH2/b7sYP18omsubwLi6/PPLMoq2Gsi6oveGjTRR0GCFRmgzejRdNdOmyD1ZNW7WpK9qyKXJyZSVUoT28dcJFOqxZZCcSqpyUhge1B9KqoSQvWH0MWkwoDsPvWBktQHyRjybKBUEsF91FlWMolyqkqi15Do9xjtxFcVJ76OHtCWmb7RjlYjGWGafImV25xW7JxJW3P4Xb8ZRtJi7/veT0/h2X/Cu9sURQKrASp3Eo9gCxhZzxyK0aRMGIZhCZJKmS5O4E48RnYGlJ3E9tzggenjPnlHATCE8m8OnuHusQ+vzg5Plz+MjAMJ1u24dGYFfNlIafrl9tj6KpeC0nrUjacPgliPs0nHkSJVawQCgsxQMm94g3QnDyH3ImiV6TbE/qNRteO+/2FdiNut8rT+91O13P+WoGl34QSHa5822fuIbb/aYqiu/gtaJbi+Cb7w7et/+DYtVbBq/9IXgTJfsTcP2fEEh10kH8akJ3E13/26Y7CHd/ET+zO1OkO0HSrYfndoLrDxOa39NF/S92QQgMbIMGYew34jy0KEfwOy4IY/xBMogaFDZlAijNyT6gMi2nMWpzchVTkOPhW9eaeMquTs4+rjZW1u6Al5tHGOhbQ6Dlambj7urkCLQd9xaahykzHs1qaydXN8AsV/3u7CbKxWUloVx7bNFOcycHLvBnoT00tfKATpZcTp36W9iBl8yYoAvdoKsntACKqPx0Pt80dYCigCl9aBMnzBPkJVBtb+rKy8l9G5wxTa0TdEGs5HEExqewA/kwYe3NZhN3lJq4fgQfkDwLe83t0Cq3XloHAAAA) format('woff2');}
-@font-face{font-family:'TermMono';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAMIAA4AAAAABhAAAAKzAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQ2AEwRCAqCBIFuATYCJAMMCwwABCAFhDIHIBv5BFGUDcZUgB+HsXukRIFBa0GUImg+PwqRt2DNxiScxMP3+/1v7fNM0hexbI54ErdmlaFCKlQtQaz+ISTI9+/X2vunlnCx5Uz2UNEKUaeTzKpYJTFXZf8T19SPOn/AagCKtsAHeyz83xpoN6EBDdsLH3QpPGzxmbsy4TPRzHGKr1YFqnqYQDt2HTiMJg9ZAAJVY+wQMLNxbl94fJcechnkU0HKQya9tkmwf0uc5RHrIFGhowMW27cJfIEB9bl/3Q3aOnICAtJY+o0BZCGUJbRAGEF4du364wC+ueiDCyHJiYLH9Fsk5NCCKNCCZB6oKkuSAW581WfB+K6z7VcvDwgAhMjiIhRAFQUcBG4AkAeEnKCjJ+CwKrVTJ5nZbxda55bac5l5Jxg57xbbpudbsrDBu++I+Or+B3Po9hsQ2m++5gzdO9O76uBNzt4eGzyLjnPALqfaT2rKKjBQQ5HtheERvadgVPniZ/eitBf0vK+eG/SIV5Sv/v6/TfZ8cKTHXPX2xcKDInzLUhwTK3ZwyiKCwn2xXLTQJzTMK8jL8H2k4H1tbGlibGGsJ2ZiCZsU9T9F9d2rZ1ynALgPIc3m3xgkH5dyg/7TiMQP+HO1uwh/P3IT2WZ/BPe0jaIEghsN03EEwXYCpLNiFih4FLHCgUDBDCIIYVvVc0SRpwMfGNOhxwmdNP2kc5a90XkzMUQXdMUhqmgqrssQqMckyEVXj+NhxCFswWk1qCQnJVPNjAe3lpjJ8oLi/yCBWLUIlTByGlXMJMNp4MykqYRTEBOqZiZcjWoyuEpVzNiRqVZNq0oAV66k5KrJ1CjnQgin5spUWw3u8e1PlmQQR30NFUwlD74Hd+4Cp40QuPcQ5/XNZZhZqeYQq1RFjonMcHeLE8g17uN541XDqMgJZcCpYTSIQIbHqwI=) format('woff2');}
-.d{font-family:'HeroDisplay','Orbitron','Arial Black',sans-serif;font-weight:900;font-size:24px;letter-spacing:6px}
+@font-face{font-family:'LabelSans';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAQIAAwAAAAAB1QAAAO7AAQBBgAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcMAZgAGwKhWSEMgE2AiQDOAseAAQgBYMSByAbsQVRVG5iZD8SY1sH23FdTTQ6ZcvKom1ix0bhbTx8v9/v1973IObNQiWJVdWWKJGhlFdJOp2QJJHgi17fpr+EpJM8Qk00UjFSMSVUXOhXV0hPdv+iJ+t/gPDa//+9079HoG2xSBMbY4Ok7+u3S50oDCOdyz9IOskCXWCQgnqVpwvOoLfOBZqNsoYtqZKzQazAfwEoyDxvOGp4RXf5g3XEKqBjuEmluhDkg4i8ji6waYkT8I/kqDYYDuVTr2+p0uAeWwXF/N8BqC7NgnYAATmbt4FJQiQq9MIFegntAd104dKkKJQESVLlKPgvczKOyHwF7r47brvlhqsuhaFCu/xo638fAYhB4KaA0YT55OiSjbjUXiokkI7ES2woqZJmozKiBOUW5pcBASFJ60hoP6NBcxwHIzxPzC/mIYwEjuOmPhoNNrq4uI7P6RYiXCpAIkJA4mWhKyILpbWIqKZ1kJq2aJxYSCN5PjnP8zDCZReoifmP2OgHhHiNxp7Y/X6IvR2780KluXMm2vMGzb2CkdvPKf7CdA51AypIhLAywchPUhirC0bcOXh3PqAoJAqKvk8Ye014tfHPjYN1b1PW72oHcYXwbu3sp+ZP1yVtm29ubgP3t/4sL1l4WUgQE6sKZipCotLpbJ2k7/V9fWR8Uf+6xEL6QGHxfoYpPnCgsLrrdJstA9PXb7BuHm7sDdbGwwbejZAb8PZvcIj9k+T/ZcdtClzKYAcburzC3mRDV1ZZOL1dJ1qXvaGV0SqTlYdSaU2phkfMB3s65V1+vh3yTvhc3+EXU6KzZbbC12/I2SZvyirGINs5NDU6PKyo2Te+YapGq2SHwRofN4nraKzaOsYgxyUsLUomL2uWpYBNrfVGAptwoxXe1M7FJSTGxCYkxp1bOFuQ3DcSlpY6FJbQV3AWmmufnvxif31+smdz+KZwAAiUqP/ZcW9XmU7olxiv3gEvt8cfA/D6Xh4NxP+fuZSPgAYJgnwvVQA4rXAm/l57fAIfIJ+ZpyGqAjP5GhXGqNyKyhVUjqKyAgIyCmzzupgcAEKg3cIncHmowQFclCbcAPTuMOmAO7W7c1cWvesv2F2nOdqd1ZsMUzGatejVphajRgdb/nybtq3sGU5n0w+kW3C3SfvY3qZZHVrVYTRKpw4182wbyro+0u7QMrIr+PDBqIWzO1XyVqVZI595W61Zo02qtemlwDeD3b5tZ6GvvWO1ojVrUC0TjdGpQYU2CbKppFGyvRTBJwJ58+UrUCWZEXQttFcVV4b7v/wB) format('woff2');}
+@font-face{font-family:'TermMono';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAMIAA4AAAAABhgAAAKxAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQ2AEwRCAqCDIF0ATYCJAMMCwwABCAFhDIHIBv/BCCeg3GzfEQR1azIdpnFFflYseJEUKyVPbN7DxgiUoTgGC2QT8W/DQlHiiwKE/fwf3b55+Ty4gmJzfrAuaAUOvH1KRqoKYQSnrr5OJY/SXOALirwhDtfFsZZl8Aa+W9fNnFN/ajzB6wGoGgLfLHCXAHtJjSgYQNFgrYNfDjCmbuY8JksxjjF1/YCdfoJhhYubugAlRI6AExERoghmc5wch9xgNlwEZTZl1vJyYddEqzYELulRQlIahE6YL7l8wF8NMhE0dq+wVePcUBAjshnDCIXQo1ENwjDSM4dEQjCLxc9aoaQClGYgLYhUaAbqUA3MrOAug0/S4OkyDDRAfWtO3756pMHAgAhOmhGqIA6VLAWOAlACQiFoFcXg06n7d+u3fRkp/vWq57d2q3bNJuf7vZYf96tg1q+P6KYOs/6R/sur2/b5kcPY+mBH27pVHvy8CpuLPWPZtffNoYO8fUHaUMrif7Yt6X2Tl5bP3XU64nunLmWug9y7lBv/bXZ/5fcbBhbW3U4U6FKC/zsIsZxNatzRsoKvOwyE9FZTkmGmdH6WZTLXPsPDQ4KC+LbCw6HlceLR7+dm2OPR9y/qQaAsxByRnn9/f60R8z7DwvpF/z8+rqBP//2zofojnNyvqFKguBaw9xqQIgeAxErJoG+b1GtEghUjCMFwW+qc5VUlGrgLSod+rmgU5NvdGGeD7o0LsLoij7RRFUZE4IMgYZYBY3o4XYmmjgCCzi5TPIQ8QQElialJljHIMj+B3VYRBkPisjBC2vk5OCEtfBwsmDRCKyUDyFw8vDCYggIwsUrT7JkPBEh8BmVhOZklwxUWQzo0WMPlrRhg97HhuKRxk+TKlX+pGXytx6QuLw+DcK53IXl4SWaRBh0W5BAt3Edv1uLoNiIaG2c7CgOUqAjaY8KAAA=) format('woff2');}
+.d{font-family:'LabelSans','Poppins',Arial,sans-serif;font-weight:600;font-size:22px;letter-spacing:5px}
 .m{font-family:'TermMono','JetBrains Mono',ui-monospace,monospace;font-weight:600;font-size:13px}
-.flick{animation:flick 7s steps(1,end) infinite;animation-delay:-9.1s}
+.flick{animation:flick 7s steps(1,end) infinite;animation-delay:-5.2s}
 @keyframes flick{0%,90%,100%{opacity:1}91%{opacity:.3}92%{opacity:1}94%{opacity:.55}95%{opacity:1}}
 .run{stroke-dasharray:46 1400;animation:run 3.2s linear infinite}
 @keyframes run{from{stroke-dashoffset:46}to{stroke-dashoffset:-460}}
 </style>
 <defs>
   <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#ff2bd6"/>
-    <stop offset="1" stop-color="#7b2ff7"/>
+    <stop offset="0" stop-color="#d97757"/>
+    <stop offset="1" stop-color="#c15f3c"/>
   </linearGradient>
-  <linearGradient id="ll" gradientUnits="userSpaceOnUse" x1="191.4" y1="0" x2="20" y2="0">
-    <stop offset="0" stop-color="#ff2bd6"/>
-    <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+  <linearGradient id="ll" gradientUnits="userSpaceOnUse" x1="241.8" y1="0" x2="20" y2="0">
+    <stop offset="0" stop-color="#d4a27f"/>
+    <stop offset="1" stop-color="#d4a27f" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient id="lr" gradientUnits="userSpaceOnUse" x1="708.6" y1="0" x2="880" y2="0">
-    <stop offset="0" stop-color="#7b2ff7"/>
-    <stop offset="1" stop-color="#7b2ff7" stop-opacity="0"/>
+  <linearGradient id="lr" gradientUnits="userSpaceOnUse" x1="658.2" y1="0" x2="880" y2="0">
+    <stop offset="0" stop-color="#d4a27f"/>
+    <stop offset="1" stop-color="#d4a27f" stop-opacity="0"/>
   </linearGradient>
-  <filter id="glow" x="-10%" y="-60%" width="120%" height="220%">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
 </defs>
-<line x1="191.4" y1="33" x2="20" y2="33" stroke="url(#ll)" stroke-width="2"/>
-<line x1="708.6" y1="33" x2="880" y2="33" stroke="url(#lr)" stroke-width="2"/>
-<line class="run" x1="191.4" y1="33" x2="20" y2="33" stroke="#00f0ff" stroke-width="3" stroke-linecap="round"/>
-<line class="run" x1="708.6" y1="33" x2="880" y2="33" stroke="#00f0ff" stroke-width="3" stroke-linecap="round"/>
-<rect x="187.4" y="29" width="8" height="8" transform="rotate(45 191.4 33)" fill="#ff2bd6"/>
-<rect x="704.6" y="29" width="8" height="8" transform="rotate(45 708.6 33)" fill="#7b2ff7"/>
-<g class="flick" filter="url(#glow)">
-  <text class="m" x="213.4" y="38" fill="#7b2ff7">0x07</text>
-  <text class="d" x="256.6" y="42" fill="url(#tg)">THE SNAKE IS HUNGRY</text>
+<line x1="241.8" y1="33" x2="20" y2="33" stroke="url(#ll)" stroke-width="2"/>
+<line x1="658.2" y1="33" x2="880" y2="33" stroke="url(#lr)" stroke-width="2"/>
+<line class="run" x1="241.8" y1="33" x2="20" y2="33" stroke="#d97757" stroke-width="3" stroke-linecap="round"/>
+<line class="run" x1="658.2" y1="33" x2="880" y2="33" stroke="#d97757" stroke-width="3" stroke-linecap="round"/>
+<rect x="237.8" y="29" width="8" height="8" transform="rotate(45 241.8 33)" fill="#d97757"/>
+<rect x="654.2" y="29" width="8" height="8" transform="rotate(45 658.2 33)" fill="#6a9bcc"/>
+<g class="flick">
+  <text class="m" x="263.8" y="38" fill="#87867f">0x04</text>
+  <text class="d" x="307.0" y="41" fill="url(#tg)">THE SNAKE IS HUNGRY</text>
 </g>
 </svg>

@@ -16,24 +16,29 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 FONTS = ROOT / "scripts" / "fonts"
 ASSETS = ROOT / "assets"
 
-# Synthwave palette shared by every asset so the profile reads as one system.
+# Anthropic brand palette (Dark, Light, grays; Orange, Blue, Green accents) plus
+# a few warm in-betweens, shared by every asset so the profile reads as one system.
 C = {
-    "night": "#0b0221",
-    "deep": "#12002b",
-    "panel": "#140630",
-    "violet": "#7b2ff7",
-    "magenta": "#ff2bd6",
-    "pink": "#ff2975",
-    "cyan": "#00f0ff",
-    "sun": "#ffd319",
-    "text": "#f4ecff",
-    "lavender": "#c9b6ff",
-    "dim": "#8b7baf",
-    "green": "#3dffa8",
-    "yellow": "#ffe66d",
+    "dark": "#141413",
+    "surface": "#1f1e1d",
+    "raised": "#262624",
+    "line": "#3a3835",
+    "light": "#faf9f5",
+    "cloud": "#e8e6dc",
+    "soft": "#c2c0b6",
+    "mid": "#b0aea5",
+    "muted": "#87867f",
+    "orange": "#d97757",
+    "clay": "#c15f3c",
+    "kraft": "#d4a27f",
+    "manilla": "#ebdbbc",
+    "blue": "#6a9bcc",
+    "green": "#788c5d",
 }
 
-DISPLAY = ("Orbitron.ttf", "HeroDisplay")  # renamed: Orbitron is an OFL Reserved Font Name
+# Families are renamed in @font-face: Lora is an OFL Reserved Font Name.
+DISPLAY = ("Lora.ttf", "HeroSerif")
+LABEL = ("Poppins-SemiBold.ttf", "LabelSans")
 MONO = ("JetBrainsMono.ttf", "TermMono")
 MONO_ADVANCE = 0.6  # JetBrains Mono advance width, in em
 
@@ -61,9 +66,11 @@ def font_face(font, weight, text):
     )
 
 
-def display_width(text, size, spacing=0, weight=900):
-    """Rendered width of `text` in the display font, from its advance widths."""
-    tt = instantiateVariableFont(TTFont(FONTS / DISPLAY[0]), {"wght": weight})
+def text_width(font, text, size, spacing=0, weight=600):
+    """Rendered width of `text` in `font`, from its advance widths."""
+    tt = TTFont(FONTS / font[0])
+    if "fvar" in tt:
+        tt = instantiateVariableFont(tt, {"wght": weight})
     cmap, hmtx, upm = tt.getBestCmap(), tt["hmtx"], tt["head"].unitsPerEm
     adv = sum(hmtx[cmap[ord(ch)]][0] for ch in text)
     return adv * size / upm + spacing * (len(text) - 1)

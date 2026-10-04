@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 64" width="900" height="64" role="img" aria-label="Tech Stack">
 <title>Tech Stack</title>
 <style>
-@font-face{font-family:'HeroDisplay';font-weight:900;src:url(data:font/woff2;base64,d09GMgABAAAAAAOYAA8AAAAAB3QAAAM+AAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbWhwqBmA/U1RBVCoAZBEICoNcgxwBNgIkAyQLFAAEIAWELAcgGxsGIK4KjHFPxWK4kumkJosF9rLlFMbR/5t4+P+1svt+VXN1gEASKSJQ7MJqIgyym+MjFLFwLGmXe2lNUwCQKcKAFQDoQp7gPiOvVj0phgy5bxmnmAh3edrljfZBhpdypX/nhDun+QJtAfz3rC6vr78/VX9oWoDzMCKhiEdodE7uFXulMbZVI1igRWPZGvzFisUC9SrW2maTyWafSFJz56jx7+cLFIAkCZlQVhYCdcOs88+ac/MC6UPb2YK0HFotgTi4W1gQRSDkkqpQFQo5Qhc+oSSJ1ld567tA3QhdcLJ6DgB5upudVyK1pXXAQnOY2GI9NlFpUH8S+c+DlUFe8mOT7IcfCEiz0isM4hdCVaAbH/rxn9irsA+SgChn50FChm4CAt0ELQM6yQpgkEPHTl249vJB9Pza1perv18j6OeHaLV0RKiBLkAVV/EYkAOS6Ifr3OhRFB2n1hqlMx+/RvPC+0dej0J9YzPOnIlC4jXaPryRpeR21KHtrnT6keNplBpXaCrnhEZqZo28nhWJpjU2NuwaxDfU0/zYaDhzJpqNCHsRNZdETMUUNvDDT7+7680oFdFRkU+dzijaoWO0IAkX3Zfyb+pzF9txEe2ePURoPVO3lA7btotJO68xQbZLa+qrqv33JE+9dPLf1pRXDVx9GlH80S2479k8MVizNnE+sl2f4G+UIuo92BzAx58EboxScfiFsOeoAe2yHLfiYT+K1MYZjG32aV+1kAeAUyCQzKhNqls7Tv9VzbIv8CRrjgF8+rL2Coog67XNiHIqBFvRujIBFXT46Kxa/NQtm2U/m2g3/W9GVtrL+l+7TLed/tAtZgCBmqnAuoBa4bCAyGv4jQuhk39IOkQZMhOjG+QGxQIo6RMH+LJBcV4QFHEXd1k92s1kc/wQVDIFQ+um1uxCLxQE3RPmVEywWdDDiGrIYhquQx+YwiZ4UJeCMYdn38SETMUUH+bGFmymCb0XMZAZ2Qdik0zYRVN7htAXzDdFT4iHCJ/IEjpjszB0Z8ZE9qH68pVg/7EogOoCpjLMCOvGpq/h2Qfu3Ltz6oD6jCbWTxHD0jdE8KjDXKg18NA7+kD2o3DCgi5A5VpXjQUAAAA=) format('woff2');}
-@font-face{font-family:'TermMono';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAMsAA4AAAAABjwAAALVAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQ2AEwRCAqCMIIaATYCJAMMCwwABCAFhDIHIBslBUAuBuwW+RCLWA2LbHljj10sKsqxCIK1dHbvPnCflIgVsEUg3QpZYWJLQgNbFKZVgb9fa2/PPIIvaieiuO2p/sMtmk4nZEqjMSTzzqdTtSp2ScmqDJOqEim/nkzJchSbGkyofD/9X0atef6vqRf1/ACr3c6iLTA2HxZGA+1NaEDDSP84oSjw4Qjnu/v/vEsTZbNxlPt7wQUqQxTBlq9s7QWGEroALGTGqUZajnd8D4pDjt0mKHM4N6OSTzkarDsQOwlDD5JmBhuw3tqlAN4ZYaZo7zx08ZgCBOS4vMcIVCE0SfSBYQzSpUNBhOEnFzPWHUIqpCHAASFRoA+yQB8UC4DqvM/SCM2EZrogXXXXT7BSACBEF90RaqBCDbuAe4ASEArBgF48Tn59ZCt7w/Poe1L9B9ibt7A2vsh+h96nl9jbz1Gs/pf6M32St/lx47NbKq56ytyoTU8n7rS6udx+VY+BD1+qA6qP6ssmK56xfj3X+HeD2/BBmLwFEx6OcWu0rXrrm9zyFy78ucathsnN1oMSGWFQG2WTKbPafKJg0qg2yIgmi0eq04vV4imS+hbJ3dDRRYWlhfQwRWXQffbxd+9p3bWSS5L/LbgA5kWekNRm9oqkY3qjadHlvO6FIQCchiHnlf19/mfs4i/511SQ3+HH+5eD3383rYWqrv85M5/RIEHw9klu1lOq5sAMN3TQ8Lew0QKBminIILhDlZvIomQCr5DYMMQtm7r5yhaWeGVLU6KUrRkU7UyDSRFUYaAl9mE+fg0mwIobWyYhaVZaSEAQghNq7jmudw32/QdOPohRGiEkLgPXJiEuAdcpLSHMxwPBGWQhQQlpGbhqQQiSlKHUpElACBKU5dbIIyGmCadrs5Fnr7lX3s0XzFlRhDShWKhFC9WiRqqTJzTs7t1PwktnP5+0jJBFikMeFCI0YL/G7zoghKgQj24JMYQ4MtAV4TcFAAA=) format('woff2');}
-.d{font-family:'HeroDisplay','Orbitron','Arial Black',sans-serif;font-weight:900;font-size:24px;letter-spacing:6px}
+@font-face{font-family:'LabelSans';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAANYAAwAAAAABhQAAAMIAAQBBgAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcMAZgAGQKg0yCdwE2AiQDJAsUAAQgBYMSByAb2gRRlA9GDuLngW1MbbgomsmBgoKBDGN0YERj6F/fm0Ru8DKC7/f77Tn3fsyTeLNQSapJE6lQKZEhxN/AM9MJiSHRqLwf7erfbI6ZOdoLOGd/SBXcwSgau/8BwmvXAuDEzbSsizsfWzTSxPI2ZWG4MBtTdc1/G1Of9B/kQR7kAfh1p/jdEb0+q/CfL9BjUjBqrbqRDQ4qNAIoPsuSIYrb80bTny44ABRh9CGoRcnigy15pwjY3YhrSI9GADpRPsd+tu2z6hY4Zxa7+v/vpq6E1QMgIBfzNIBZNkgUjEECY2wcAUNcIcwqU6FKrQbsBgh0vNedd85Zzx61oxjc7XMjQBdugTYAFUCK+ZguNDGYYegkBxXDxjJagrlC/sunT+kljzn42BO8+NEj+Pgxgj7N8OjReU+eUDKgYU6YlhMMVIwYFralWU7ISRjbIlqtecy0wm27n8i9S02duVH9RJoqC22/47gFT1+vWuZjKP0DgCu2xdSnWe+k2TV/Tuw57bUd39QR4xAIvyTevVOo7js8EG7Y1cVNyyuS5mbqqqsy9eETivK46V27wo2H+vvVO4XiXTq4V3v4LXl7vLt73cl13bDg+ImlcQlxS08sDUkIgbv/s3P2n8n7n7s3RBAjg3d2vWkVEpf18YrUtPHoEN58UIUHO7qwuby4SERSa83zejvJZo/lKXGOsYGV2uAKD05MUUtZbp6M5DZByPGuE3VL60502QEQqGF3gNm4VDZY+OeA0Cv4eth7Gb5/5OXg3/zO23kJnRIEf0YtQID4hL/pvt3xDb/kp/ECFtJTVd524IYtBWRkGYSi0G2lcIQtdTqHRHUE7sGVCrN2U2nAB1WsupevNKqlJ5zP6zAbvioQnYZ0M9DR6xUqXaqrCsWmpxGqVf2dDKx6oGA3wkhDlVRVpk8vPaKb4o6l16tXqnrkS5FCx6DVfZSSqRAWKfCrtIg+VmrdhqS0K49r/7110LAwKEeYqbXT0OljptCtDlu1FgVCk0XaRqZkqVJlUsoFhKXzJxmICTUrHQAAAA==) format('woff2');}
+@font-face{font-family:'TermMono';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAMsAA4AAAAABjwAAALVAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQ2AEwRCAqCMIIaATYCJAMMCwwABCAFhDIHIBslBUAuBuwW+RCLWA2LbHm7e+xiUVGeRfD8Wjrv715gL0QlZItAuhWywsSWhAa2KEyrAn9vl29PLhNvqKMDYY/8F6sUp09RZ9I0cCU75TjT0DON21psv55MyXIUmxpMqHw//V9GrXn+r6kX9fwAq93Ooi0wNh8WRgPtTWhAw0j/OKEo8OEI57v7/7xLE2WzcZT7e8EFCv2lwJavrGsDhhx6ASxkRspFWo53fA8KQJzdJshTT9qMSnrK0WDdgdhJGHqQqGawAeutXQrgncFGs66eQxeP8UBAGpnuMRhVCFUSWmAYjnTpkAth+MnFjNVDSDJpCHBASMjQgizQgmI2UJz3WTJYKaHRXkhX3fsTrBQACNFLPUIJFChhF3APkANCJuho4nESy71b2Rue77futr2TvXkLa+OLg7attLQR69efI5v7L+Vn+iTd5seNz26WiiueMjdq09PzuNPq5nL7VTk6P3ypDqg+ii+brHjG+vVco97168SDsPdmj348xq1Z6ize+pLm/Tlzfq9xq2FcdcVBiYwwqI2yoZRVVNpFwZBRbZARTeVWqU4vVounSOpbJBcDhqUkpyfTw6RkQMvZp9/NE1vyJUeU/8++AOa5Vre00mwTSfv1RtNUbc3J8Rw3AE7DkGbmHS0fi3fx5/+rysgf8OP9y8Hvv7uXQk7v/zQlvaBCAsHbJ2mznpIzB2a4oYN6vkUlLRAoGY8MgjtUuIkscibwCokN/Z2xSZ2vbGa+NzY3PtLZkr7RwFQYGy4VBmpiA+bjJ2ACrDi1ZYJCxkS4ObkgOKHSnuPa1mD7f1DDDjGKILgFROHqBQUE4ZpEBHnYWSE4gxjEJSgiCpfLBUFCopRKlHByQ1xiLIpZBfmV4HRtNvLseffKW9iDOcaHECEUC5Upo1rUSHXyhKLdvftJeOnsYBcR5bZIcciDQoQ67df43WoIwcfNqkWQHyGADPRG+E0BAAA=) format('woff2');}
+.d{font-family:'LabelSans','Poppins',Arial,sans-serif;font-weight:600;font-size:22px;letter-spacing:5px}
 .m{font-family:'TermMono','JetBrains Mono',ui-monospace,monospace;font-weight:600;font-size:13px}
 .flick{animation:flick 7s steps(1,end) infinite;animation-delay:-2.6s}
 @keyframes flick{0%,90%,100%{opacity:1}91%{opacity:.3}92%{opacity:1}94%{opacity:.55}95%{opacity:1}}
@@ -12,30 +12,26 @@
 </style>
 <defs>
   <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#ff2bd6"/>
-    <stop offset="1" stop-color="#7b2ff7"/>
+    <stop offset="0" stop-color="#d97757"/>
+    <stop offset="1" stop-color="#c15f3c"/>
   </linearGradient>
-  <linearGradient id="ll" gradientUnits="userSpaceOnUse" x1="288.7" y1="0" x2="20" y2="0">
-    <stop offset="0" stop-color="#ff2bd6"/>
-    <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+  <linearGradient id="ll" gradientUnits="userSpaceOnUse" x1="316.1" y1="0" x2="20" y2="0">
+    <stop offset="0" stop-color="#d4a27f"/>
+    <stop offset="1" stop-color="#d4a27f" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient id="lr" gradientUnits="userSpaceOnUse" x1="611.3" y1="0" x2="880" y2="0">
-    <stop offset="0" stop-color="#7b2ff7"/>
-    <stop offset="1" stop-color="#7b2ff7" stop-opacity="0"/>
+  <linearGradient id="lr" gradientUnits="userSpaceOnUse" x1="583.9" y1="0" x2="880" y2="0">
+    <stop offset="0" stop-color="#d4a27f"/>
+    <stop offset="1" stop-color="#d4a27f" stop-opacity="0"/>
   </linearGradient>
-  <filter id="glow" x="-10%" y="-60%" width="120%" height="220%">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
 </defs>
-<line x1="288.7" y1="33" x2="20" y2="33" stroke="url(#ll)" stroke-width="2"/>
-<line x1="611.3" y1="33" x2="880" y2="33" stroke="url(#lr)" stroke-width="2"/>
-<line class="run" x1="288.7" y1="33" x2="20" y2="33" stroke="#00f0ff" stroke-width="3" stroke-linecap="round"/>
-<line class="run" x1="611.3" y1="33" x2="880" y2="33" stroke="#00f0ff" stroke-width="3" stroke-linecap="round"/>
-<rect x="284.7" y="29" width="8" height="8" transform="rotate(45 288.7 33)" fill="#ff2bd6"/>
-<rect x="607.3" y="29" width="8" height="8" transform="rotate(45 611.3 33)" fill="#7b2ff7"/>
-<g class="flick" filter="url(#glow)">
-  <text class="m" x="310.7" y="38" fill="#7b2ff7">0x02</text>
-  <text class="d" x="353.9" y="42" fill="url(#tg)">TECH STACK</text>
+<line x1="316.1" y1="33" x2="20" y2="33" stroke="url(#ll)" stroke-width="2"/>
+<line x1="583.9" y1="33" x2="880" y2="33" stroke="url(#lr)" stroke-width="2"/>
+<line class="run" x1="316.1" y1="33" x2="20" y2="33" stroke="#d97757" stroke-width="3" stroke-linecap="round"/>
+<line class="run" x1="583.9" y1="33" x2="880" y2="33" stroke="#d97757" stroke-width="3" stroke-linecap="round"/>
+<rect x="312.1" y="29" width="8" height="8" transform="rotate(45 316.1 33)" fill="#d97757"/>
+<rect x="579.9" y="29" width="8" height="8" transform="rotate(45 583.9 33)" fill="#6a9bcc"/>
+<g class="flick">
+  <text class="m" x="338.1" y="38" fill="#87867f">0x02</text>
+  <text class="d" x="381.3" y="41" fill="url(#tg)">TECH STACK</text>
 </g>
 </svg>
