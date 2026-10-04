@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/tukka25?tab=followers"><img src="https://img.shields.io/github/followers/tukka25?label=FOLLOWERS&style=for-the-badge&logo=github&logoColor=faf9f5&labelColor=141413&color=d97757" alt="followers"></a>
-  <img src="https://komarev.com/ghpvc/?username=tukka25&label=PROFILE%20VIEWS&color=c15f3c&style=for-the-badge" alt="profile views">
+  <img src="https://hits.sh/github.com/tukka25.svg?style=for-the-badge&label=PROFILE%20VIEWS&color=c15f3c&labelColor=141413" alt="profile views">
   <a href="https://github.com/tukka25?tab=repositories&sort=stargazers"><img src="https://img.shields.io/github/stars/tukka25?affiliations=OWNER&label=STARS&style=for-the-badge&logo=starship&logoColor=d4a27f&labelColor=141413&color=d4a27f" alt="stars"></a>
   <img src="https://img.shields.io/badge/42-NETWORK-788c5d?style=for-the-badge&logo=42&logoColor=faf9f5&labelColor=141413" alt="42 Network">
   <img src="https://img.shields.io/badge/OPEN_TO-COLLABS-b0aea5?style=for-the-badge&labelColor=141413" alt="open to collabs">
