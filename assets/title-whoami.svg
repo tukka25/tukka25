@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 64" width="900" height="64" role="img" aria-label="Whoami">
+<title>Whoami</title>
+<style>
+@font-face{font-family:'HeroDisplay';font-weight:900;src:url(data:font/woff2;base64,d09GMgABAAAAAANoAA8AAAAABwgAAAMRAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbbhwqBmA/U1RBVCoAXBEICoJogjUBNgIkAyALEgAEIAWELAcgG7wFIC4KY2Pa1CV6TWIkG7UmRuXB/UtQz8/9O3vuTR6h+gjyF1glLUsAkuzKii0AGlEFCLrscvx+8x6eoJLgEPGETyUj903ev1lvK2kpjif6i729f3dQqifWTCAFWRoHGlkiffLGN19tb0sX+OhUDW3RHEYkFNBwRNZoN27ALO6agBFrQdcAyoNVx7JiraA1t6ZRJxLGkA13GyX/3hiBPAAQCQgIiEBWl77QMf7mBZL3xexAkgckCQK6LZcOJICAeCZN0qQsApwGqExwJBCSsC/bwreMel/QxwKK9agSaRQAAPDLGbeTAPa2WQBTxjy60s88RCjqjyO/OfzS5n38agHu7xcQwA57ALQJEUkTqBOgSei5UmMBYATQ7nYCYMCBujCBuoiJgKI0E2qzdOnWvfcWTPjFl5PvXb0VJf88akIJSBpAGZAGawC7AIAHAEZEjFA5532+Xi7mgm3Pn+cKu58+xZ+UJ3spaNs25bdtE7ktZwWX81mXN9XxR3H23DM/a071dj17JucetNeTJ9klBWTcsG0qFbTGR+nbVmXnzJqP6e+N4krf+f5oThT1jzn648CPw4d2HLgBHAA3jJyHGy42HL5Qyc6DDxgxT/zq+Nlx8sGRz/96//d84lZf3Nsb911gYy70yXehL24zThw+ADz+ftHf2SNXUNh/tNtn9MvYdPHehXsAbCaAib7fb85YmBrzJ+3cD4BbrjAAwLcfMydDFviHPQBCBkDYGwX/WYBlYhAENZ3f6mMs8zGVmT9axwlGjDGM18N0JqLxSOtC2l1OZawVpjUD/IUKUvYPppgQnGGpg9eWyRBoyBo21JadHEE+Z84dks0NYi7PD0mn0jDU19UzhV5oCLonHemY5HKgB0QN5IT3bvIPTOOSAqhKw5gnMNfRoVIENR+O2o4Bl60Dv0Ys5ED1gbgUHa6gDWqa0BfNP0dPSIBIn8gZ2nE5GLpzYCNzKJ9+fF7brBKqCSyyHEh9bd3X8OmFO/fubC3KlJZj9yV82PiGSAEdVqDByOvv6AOlVubIiSlMpJIjBgE=) format('woff2');}
+@font-face{font-family:'TermMono';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAL8AA4AAAAABggAAAKkAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQ2AEQRCAqCBIFyATYCJAMMCwwABCAFhDIHIBv1BCAeg22zeeSQjOQyRhBiPsf7Xvp4KNZe3+7dD2IBSJUVIThGC+QrTGzJCCDbiXB1gR/9y5eTx9YpifT/k3PFSG8ePayHYa+wwWur7H/imvpR5w9YDUDRFvhihbkC2k1oQMMGiQZt4eEI9zyp0ZNpRGTjtbtAnRFCoGUrGjtBpITBABORSWJxplOcO0wt4Ge4CMrsz1345LMuCdZuiAPSoxQktQgdMN+aJQC+whiTRd/ANXzzSAQCclI+Ygy+EGokOiBMwLl8UkcRfrnoUTOEVNghVAABEgU6cAVswzMHqFEjMUaaycEYI5U+dvDfy8sCQIjBmhEqoA4VbATOAlACQiEY0qaQSaUDe6TbX+52vn7fvVO6a7dkx6u9rhdvOraRldsfwZ2++1m/evNd3rn+tuP53Vh6W7dync90s/OZN+766p973HHXh5TfGTvrSylM/jq8p/Zh/4bxOXfK81mcM99T9yXg4fFD40vegr/rYTZMr60+kZVDygrLc0ZTXF2j1jmj5YVlOSRTxWSXlGYWZrZ+NuSyrkaODwkOD+a7C4mA7pM++ZfNG8dTG859LQAuQci55UWdpPdg8+L/NVzuJ/y9/LAHvZ8710DM4H+m5SuqJAguM8xdBoSYMRCxYhLo/xY1uoBAxQxcEOKmOrdwRSkGPgKVDiO46dTkF11Y7J0uzYhwumJYNFNVpoVOhkBD7IBK9Gg3FUmcw1JWNlMc9LR0KCxdak2wzkFQ/R/UU6PKORB6Fk5YEysLK6yVg5WBGoPCyrhQOlYOTlgsHYqyccqXIoWWHqXjMiYZw8osxVFlMVyPHnewpJ0a9S4mhEM6P12aNAWTlivYekDS8vowCFO5m5qDk94kwly35RLoMa7jd+tQhIkeo52VGWHBBQZJf1QAAAA=) format('woff2');}
+.d{font-family:'HeroDisplay','Orbitron','Arial Black',sans-serif;font-weight:900;font-size:24px;letter-spacing:6px}
+.m{font-family:'TermMono','JetBrains Mono',ui-monospace,monospace;font-weight:600;font-size:13px}
+.flick{animation:flick 7s steps(1,end) infinite;animation-delay:-1.3s}
+@keyframes flick{0%,90%,100%{opacity:1}91%{opacity:.3}92%{opacity:1}94%{opacity:.55}95%{opacity:1}}
+.run{stroke-dasharray:46 1400;animation:run 3.2s linear infinite}
+@keyframes run{from{stroke-dashoffset:46}to{stroke-dashoffset:-460}}
+</style>
+<defs>
+  <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ff2bd6"/>
+    <stop offset="1" stop-color="#7b2ff7"/>
+  </linearGradient>
+  <linearGradient id="ll" gradientUnits="userSpaceOnUse" x1="333.4" y1="0" x2="20" y2="0">
+    <stop offset="0" stop-color="#ff2bd6"/>
+    <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="lr" gradientUnits="userSpaceOnUse" x1="566.6" y1="0" x2="880" y2="0">
+    <stop offset="0" stop-color="#7b2ff7"/>
+    <stop offset="1" stop-color="#7b2ff7" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-10%" y="-60%" width="120%" height="220%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<line x1="333.4" y1="33" x2="20" y2="33" stroke="url(#ll)" stroke-width="2"/>
+<line x1="566.6" y1="33" x2="880" y2="33" stroke="url(#lr)" stroke-width="2"/>
+<line class="run" x1="333.4" y1="33" x2="20" y2="33" stroke="#00f0ff" stroke-width="3" stroke-linecap="round"/>
+<line class="run" x1="566.6" y1="33" x2="880" y2="33" stroke="#00f0ff" stroke-width="3" stroke-linecap="round"/>
+<rect x="329.4" y="29" width="8" height="8" transform="rotate(45 333.4 33)" fill="#ff2bd6"/>
+<rect x="562.6" y="29" width="8" height="8" transform="rotate(45 566.6 33)" fill="#7b2ff7"/>
+<g class="flick" filter="url(#glow)">
+  <text class="m" x="355.4" y="38" fill="#7b2ff7">0x01</text>
+  <text class="d" x="398.6" y="42" fill="url(#tg)">WHOAMI</text>
+</g>
+</svg>

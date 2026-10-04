@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 64" width="900" height="64" role="img" aria-label="Contribution City">
+<title>Contribution City</title>
+<style>
+@font-face{font-family:'HeroDisplay';font-weight:900;src:url(data:font/woff2;base64,d09GMgABAAAAAAPoAA8AAAAACAAAAAOPAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbYBwqBmA/U1RBVCoAZBEICoRYhAwBNgIkAywLGAAEIAWELAcgG5kGIJ4FdrPLIXwwVohUOUOKsrM+Ejz/r1Pv+18ySbKUHhU4YbkAYLsEMJU3wo2At2Yq8Ui8BTcd7O+9T0ToPjE4AYwf94zeVtJSXB3P/3u7bx9kZ7YBcaQRF4YfrQL4HzpmumiQqAAd2IAncrtlUVR8N36TvhV22VMU4OPwLWp3YNIs4rtDEMAGAFTSNhFixJGXQIJCm4LZvndvkF08w1IgiwHw4bjkojmGAnFAAMFAEUOsGXx9RS0VARSCRoiHHwlRfBH6xfr4gg9/tKFO6Q2YoLap8QCDVneUqWxmMmDJAk5+FXlX+CHXd5V10F1TGRAAlVWvQK4gorQHxUD3W4Mr53FWAEAhABLRGwBQgAZ8IQTwhRkO8OSFgFynrj168e77D4FcJ649ePG2swfh388H77z15mv2SwEQJAxxAcECoBYgCTwGKgCAAQBoBEFQG63406tlJFbubSa9eO2EZbrb37+HNfv8/ddhzbt3ieQ4Z+1akYS0Eaykd53H2vbhg+i1Hz9aLsltp1Brzvu0ZVqG88/RdVtiroI5HRFOxds5M2A1QvVzx1pjyOoAMatOR9poR0xbXGyDZdi0jCMIB25Amte1HdFzrQmTUrNV11e5QbokSKc2O8Wdv7auuzsIMulequuBg/uADUBHzL1YqwBDn6XSJSXp1LlUMbqzdzlUw3Nzxnrk1yEa9/5XdOpjOz59Pty27vrylSdBBk/KBGAEySzVdU5cKDgWpi32mtfVT0+Xtn/5smsKEssED/TKHOX/1li4CKxObGH7HHp1qF47KfFuB9shYu3ubt3bnyMrM/jR/S/1P9d/OKTUBmD1iwCK9J778JvmdquIh/RvwBPttAbg5+9xg/6rQLd4rJGR/gACj769F4AQVs/4wLVgSTnf7sJRdWDfL403wapEdWO3OmdHFd/aixnQ5QTgW7QTWkOYjouzRAgx4kAlnFDw/AkVSYkINR3iCw1yM1BoUi8LBRFys0FJwJZTbx0hIdfIUGl8Bh6LY0Gb5jbsQ284BD0yLPEsBpUCPaWqgKzIDj9ms3BUBhPqszvYojEdmplhWYQ5djd6akUlm/n/RSRkgWUjKsaMKrT/wBhy2VwOvSAmYnCQNXQB7b0FPViQkUOoqT7YufJ0N2QIFThIsmDYNDW/DH995MGjB+eOzAoTwpkhujD6gS6Ph+9sgubHPPmJbpDrZHfXiijEZCg8pA0AAA==) format('woff2');}
+@font-face{font-family:'TermMono';font-weight:600;src:url(data:font/woff2;base64,d09GMgABAAAAAAMoAA4AAAAABlQAAALSAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQ2AEwRCAqCSIIvATYCJAMMCwwABCAFhDIHIBs6BRHVm8sAfiZkc0jr+qKYGpVBFtPlytmsyA5NNPfN9nj+/SXt3PdnthZK76p0YegSVR2ryGoUIZ54LLYa2SxZ4bDMfP7ppZlqR6zo3/8u4qWc5Ale5a0eFpBrpwZA/E9cUz/q/AGrxR4xVmlJu4FEczTQbkIDGkUBRepAJjxs8anOJTDggbCUWaxGXq8qmLDFNrkel5IDxnQwAIIJ+xxQnPFmnmNIATYwF0FXRXoFoKfeYZJ70/MUnEoEUIxzxph79yrgB9hhpf3/P9GvniMI1L66YodexJjCkmCPeiMUIQLgNxc9wRREaWIxU/otCg1LmmBJ5wImjCllhxPOWRlY3/fw92i3IwCIDGYRPZjACJ7hPaADRFNsWDAxspkyLC4yzO0fXh4cXZ9vWFBokDcwsq5vaCkH6zw7IxAbzs8Nu05PQa2enOR1nQfTZwadJzX7NL9zKw3bhMym1S9804q8iw0LrGc3ucxpps1h7jiu6rcU9UpvAlg3Ujyn5fPEtkMLHJfeBgb+1uPJ4PB4nMDXH4sMifKvKPG4eBjgVESFRPpjVbG4X3iET4gPCPulGt9jZ6qLM8W5n9KFCo6MJ8pDgmWJPmTl44JDw0lmdGi0Kzs4z98dj40LFkuDEvHA2MTQ0BIKxDcH8FpQ57rINVhTbhryb6wRP/DnaGIE1j7yk8H+4a9O1gsjCoQjEa37DML+IcL5chV4+ChuuYSgd0QD4TZNeKtJpw/4wpqOLb7QZcZPurlije4cCYXubUoaNUI4FJEsTOUDOIt+3G7OIJ+ilapajVgoQiRePGaCJCcKwv8gCaIoDSZWaElSlQolSYZGKYE4IonUIZFSoyVhESGk0gZx504oRiJdpRtcKXdXqjs82oOznyyRBbNeJ8M0XnwvnjwFjxoVfO8e/P2Np16klsqD7x0Qc2Ik2q3SBPI93+N5ExEmE+NZSjmmIAID9DpVAA==) format('woff2');}
+.d{font-family:'HeroDisplay','Orbitron','Arial Black',sans-serif;font-weight:900;font-size:24px;letter-spacing:6px}
+.m{font-family:'TermMono','JetBrains Mono',ui-monospace,monospace;font-weight:600;font-size:13px}
+.flick{animation:flick 7s steps(1,end) infinite;animation-delay:-7.8s}
+@keyframes flick{0%,90%,100%{opacity:1}91%{opacity:.3}92%{opacity:1}94%{opacity:.55}95%{opacity:1}}
+.run{stroke-dasharray:46 1400;animation:run 3.2s linear infinite}
+@keyframes run{from{stroke-dashoffset:46}to{stroke-dashoffset:-460}}
+</style>
+<defs>
+  <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ff2bd6"/>
+    <stop offset="1" stop-color="#7b2ff7"/>
+  </linearGradient>
+  <linearGradient id="ll" gradientUnits="userSpaceOnUse" x1="220.4" y1="0" x2="20" y2="0">
+    <stop offset="0" stop-color="#ff2bd6"/>
+    <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="lr" gradientUnits="userSpaceOnUse" x1="679.6" y1="0" x2="880" y2="0">
+    <stop offset="0" stop-color="#7b2ff7"/>
+    <stop offset="1" stop-color="#7b2ff7" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-10%" y="-60%" width="120%" height="220%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<line x1="220.4" y1="33" x2="20" y2="33" stroke="url(#ll)" stroke-width="2"/>
+<line x1="679.6" y1="33" x2="880" y2="33" stroke="url(#lr)" stroke-width="2"/>
+<line class="run" x1="220.4" y1="33" x2="20" y2="33" stroke="#00f0ff" stroke-width="3" stroke-linecap="round"/>
+<line class="run" x1="679.6" y1="33" x2="880" y2="33" stroke="#00f0ff" stroke-width="3" stroke-linecap="round"/>
+<rect x="216.4" y="29" width="8" height="8" transform="rotate(45 220.4 33)" fill="#ff2bd6"/>
+<rect x="675.6" y="29" width="8" height="8" transform="rotate(45 679.6 33)" fill="#7b2ff7"/>
+<g class="flick" filter="url(#glow)">
+  <text class="m" x="242.4" y="38" fill="#7b2ff7">0x06</text>
+  <text class="d" x="285.6" y="42" fill="url(#tg)">CONTRIBUTION CITY</text>
+</g>
+</svg>
