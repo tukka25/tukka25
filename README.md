@@ -8,6 +8,7 @@
   <a href="https://github.com/tukka25?tab=repositories&sort=stargazers"><img src="https://img.shields.io/github/stars/tukka25?affiliations=OWNER&label=STARS&style=for-the-badge&logo=starship&logoColor=ffd319&labelColor=0b0221&color=ff2bd6" alt="stars"></a>
   <img src="https://img.shields.io/badge/42-NETWORK-00f0ff?style=for-the-badge&logo=42&logoColor=white&labelColor=0b0221" alt="42 Network">
   <img src="https://img.shields.io/badge/OPEN_TO-COLLABS-3dffa8?style=for-the-badge&labelColor=0b0221" alt="open to collabs">
+  <a href="https://www.linkedin.com/in/abdalrahman-tukka-0b5018238/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0221" alt="LinkedIn"></a>
 </p>
 
 <p align="center"><img src="./assets/title-whoami.svg" width="100%" alt="0x01 whoami"></p>
